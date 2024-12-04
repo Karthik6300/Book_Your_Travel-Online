@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: 0;
+}
+#nav {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 40px;
+  top: 2px;
+  background-color: wheat;
+  justify-content: end;
+  margin-right: 15px;
+  padding: 1vw;
+  width: 96vw;
+  margin: auto;
+  position: sticky;
+  z-index: 2;
+}
+#nav li {
+  font-size: larger;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.n1 {
+  justify-content: end;
+  font-size: xx-large;
+}
+.m2 {
+  margin: auto;
+}
+#nav li a {
+  text-decoration: none;
+  color: black;
+}
+#main1 {
+  height: 120vh;
+  width: 98vw;
+  background-color: rgb(13, 146, 146);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.buy1 {
+  border-radius: 10px;
+  background-color: yellow;
+}
+.buy1:hover {
+  background-color: green;
+}
+
+.heading1 {
+  text-align: center;
+  color: white;
+  /* border: 2px solid red; */
+  width: 20vw;
+  display: flex;
+  flex-wrap: wrap;
+  transform: scale(2);
+}
+.main2 div {
+  border: 2px solid black;
+  display: flex;
+  width: 30vw;
+  flex-wrap: wrap;
+  width: 30vw;
+  flex-direction: row;
+}
+.main2-1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+.dd {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 60vw;
+  height: 50vh;
+  margin-top: 25vh;
+  flex-direction: column;
+  font-size: x-large;
+}
+.dd1 {
+  /* border: 2px solid black; */
+  height: 40vh;
+  width: 30vw;
+  color: white;
+}
+.dd2 {
+  /* border: 2px solid black; */
+  height: 40vh;
+  width: 30vw;
+  color: white;
+}
+button {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style:italic;
+  border-radius: 10px;
+  background-color: yellow;
+}
+button:hover {
+  background-color: chartreuse;
+  color: red;
+  transform: scale(1.2);
+}
+#main3{
+    
+    width: 40vw;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+}
+.main3-1{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: xx-large;
+    transform: scale(1.8);
+}
+.main3-2{
+    font-size: large;
+}
