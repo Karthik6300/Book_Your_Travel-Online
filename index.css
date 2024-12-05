@@ -3,12 +3,15 @@
   padding: 0;
   box-shadow: 0;
 }
+/* body{
+  background-color: gray;
+}  */
 #nav {
   flex-wrap: wrap;
   display: flex;
   gap: 40px;
   top: 2px;
-  background-color: wheat;
+  background-color: rgba(146, 146, 221, 0.874);
   justify-content: end;
   margin-right: 15px;
   padding: 1vw;
@@ -36,7 +39,6 @@
 #main1 {
   height: 120vh;
   width: 98vw;
-  background-color: rgb(13, 146, 146);
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -45,11 +47,13 @@
   flex-direction: column;
 }
 .buy1 {
-  border-radius: 10px;
-  background-color: yellow;
+   margin-top: -10px; 
+   border-radius: 10px;
+  background-color: yellow; 
+  align-content: center;
 }
 .buy1:hover {
-  background-color: green;
+   background-color: green; 
 }
 
 .heading1 {
@@ -101,7 +105,7 @@ button {
   padding-right: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-style:italic;
+  font-style: italic;
   border-radius: 10px;
   background-color: yellow;
 }
@@ -110,23 +114,238 @@ button:hover {
   color: red;
   transform: scale(1.2);
 }
-#main3{
-    
-    width: 40vw;
-    height: 20vh;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    gap: 30px;
+#main3 {
+  width: 40vw;
+  height: 20vh;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+  /* background-color: white; */
 }
-.main3-1{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: xx-large;
-    transform: scale(1.8);
+.main3-1 {
+  /* background-color: white; */
+  display: flex;
+  flex-wrap: wrap;
+  font-size: xx-large;
+  transform: scale(1.8);
 }
-.main3-2{
+.main3-2 {
+  /* background-color: white; */
+  font-size: large;
+}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .n1 {
     font-size: large;
+  }
+  #nav {
+    background-color: pink;
+  }
+  .heading1 {
+    transform: none;
+    justify-content: center;
+    /* margin-left: px; */
+    color: crimson;
+    box-shadow: 0px, 0px, 40px;
+  }
+  #nav {
+    gap: 20px;
+  }
+  .dd {
+    font-size: small;
+    display: flex;
+    text-decoration: none;
+    text-align: left;
+    margin: auto;
+    column-gap: 50px;
+  }
+  .dd1,
+  .dd2 {
+    color: black;
+    align-content: center;
+  }
+  #main1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+  }
+  #main3 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .main3-1 {
+    font-size: medium;
+  }
+  .main3-2 {
+    font-size: small;
+  }
+  /* #main1 {
+    animation-name: animi1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    background-image: url(https://media.self.com/photos/5f0885ffef7a10ffa6640daa/1:1/w_3929,h_3929,c_limit/travel_plane_corona.jpeg);
+    background-repeat: no-repeat;
+    transform: scale(1.2);
+    background-size: cover;
+  } */
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .n1 {
+    font-size: large;
+  }
+  .heading1 {
+    transform: none;
+    color: yellow;
+  }
+  .dd {
+    font-size: medium;
+    display: flex;
+    text-decoration: none;
+    text-align: left;
+    margin: auto;
+    column-gap: 50px;
+  }
+  .dd1,
+  .dd2 {
+    color: black;
+    align-content: center;
+  }
+  .but1 {
+  }
+  #main3 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .main3-1 {
+    font-size: medium;
+  }
+  .main3-2 {
+    font-size: small;
+  }
+}
+@media screen and (min-width: 0) {
+  .heading1 {
+    
+  }
+}
+@keyframes animi1 {
+  10% {
+    background-image: url(https://baltimorefishbowl.com/wp-content/uploads/2021/05/international-travel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  20% {
+    background-image: url(https://www.sunderland.edu.hk/wp-content/uploads/2023/10/Blog-2-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: pink;
+  }
+  /* 30% {
+    background-image: url(https://www.hdwallpapers.in/download/china_mountain_temple_hd_travel-HD.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  } */
+  40% {
+    background-image: url(https://w0.peakpx.com/wallpaper/636/414/HD-wallpaper-travel-agency.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  60% {
+    background-image: url(https://wallpapercave.com/wp/wp4069415.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  80% {
+    background-image: url(https://images7.alphacoders.com/661/thumb-1920-661783.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100% {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20240722/pngtree-travel-the-world-by-bus-tourism-day-concept-colored-flat-cartoon-image_15995248.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+#main1 {
+  animation-name: animi1;
+  animation-duration: 15s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  background-image: url(https://img.freepik.com/premium-photo/vacation-business-trip-travel-concept-with-graphic-passport-cover-light-suitcase-taking-off-plane-vector-illustration-blue-blank-background_551826-34288.jpg);
+  background-repeat:round;
+  background-size: cover;
+  /*animation-fill-mode: forwards;*/
+}
+#frames {
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 15px;
+  gap: 10px;
+  text-align: center;
+  
+}
+#frames div {
+  /* border: 2px solid red; */
+  width: 30vw;
+  height: 55vh;
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; */
+  padding: 10px;
+  margin: auto;
+}
+img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap ;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow:5px 5px 30px;
+}
+img:hover{
+  transform: scale(1.05);
+}
+.but2 button{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: italic;
+  border-radius: 10px;
+
+}
+#ele, #wp{
+  
+  text-decoration: none;
+    color: black; 
+   font-size:small ;
+}
+#ele{
+  border: 1px solid;
+  padding: 8px;
+  background-color: rgb(226, 63, 90);
+  color: white;
+  border-radius: 5px;
+}
+#wp{
+  border: 1px solid;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: rgba(138, 138, 249, 0.964);
+  color: white;
+}
+#ele:hover{
+  background-color: aqua;
+  color: black;
+}
+#wp:hover{
+  background-color: pink;
+  color: black;
 }
