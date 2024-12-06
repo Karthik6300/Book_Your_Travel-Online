@@ -47,13 +47,13 @@
   flex-direction: column;
 }
 .buy1 {
-   margin-top: -10px; 
-   border-radius: 10px;
-  background-color: yellow; 
+  margin-top: -10px;
+  border-radius: 10px;
+  background-color: yellow;
   align-content: center;
 }
 .buy1:hover {
-   background-color: green; 
+  background-color: green;
 }
 
 .heading1 {
@@ -136,6 +136,10 @@ button:hover {
   /* background-color: white; */
   font-size: large;
 }
+.para2{
+  font-size: x-large;
+  font-style: italic;
+}
 @media screen and (min-width: 0px) and (max-width: 320px) {
   .n1 {
     font-size: large;
@@ -214,8 +218,8 @@ button:hover {
     color: black;
     align-content: center;
   }
-  .but1 {
-  }
+  /* .but1 {
+  } */
   #main3 {
     display: flex;
     flex-wrap: wrap;
@@ -228,28 +232,27 @@ button:hover {
     font-size: small;
   }
 }
-@media screen and (min-width: 0) {
+/* @media screen and (min-width: 0) {
   .heading1 {
-    
-  }
-}
+  } 
+}*/
 @keyframes animi1 {
   10% {
-    background-image: url(https://baltimorefishbowl.com/wp-content/uploads/2021/05/international-travel.jpg);
+    background-image: url(https://www.newdelhiairport.in/media/2618/kids-friendly-international-summer-destinations-to-visit-from-delhi-airport.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   20% {
-    background-image: url(https://www.sunderland.edu.hk/wp-content/uploads/2023/10/Blog-2-01.jpg);
+    background-image: url(https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     color: pink;
   }
-  /* 30% {
-    background-image: url(https://www.hdwallpapers.in/download/china_mountain_temple_hd_travel-HD.jpg);
+  30% {
+    background-image: url(https://wallpapers.com/images/featured/tropical-w8d390to2znzlusb.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-  } */
+    background-size: cover;
+  }
   40% {
     background-image: url(https://w0.peakpx.com/wallpaper/636/414/HD-wallpaper-travel-agency.jpg);
     background-repeat: no-repeat;
@@ -274,22 +277,20 @@ button:hover {
 #main1 {
   animation-name: animi1;
   animation-duration: 15s;
-  animation-iteration-count: 1;
+  animation-iteration-count: infinite;
   animation-direction: normal;
   background-image: url(https://img.freepik.com/premium-photo/vacation-business-trip-travel-concept-with-graphic-passport-cover-light-suitcase-taking-off-plane-vector-illustration-blue-blank-background_551826-34288.jpg);
-  background-repeat:round;
+  background-repeat: no-repeat;
   background-size: cover;
   /*animation-fill-mode: forwards;*/
 }
 #frames {
-  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 15px;
   gap: 10px;
   text-align: center;
-  
 }
 #frames div {
   /* border: 2px solid red; */
@@ -304,48 +305,304 @@ button:hover {
 img {
   display: flex;
   flex-direction: row;
-  flex-wrap:wrap ;
+  flex-wrap: wrap;
   width: 100%;
   border-radius: 10px;
-  box-shadow:5px 5px 30px;
+  box-shadow: 5px 5px 30px;
 }
-img:hover{
+img:hover {
   transform: scale(1.05);
 }
-.but2 button{
+.but2 button {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-style: italic;
   border-radius: 10px;
-
 }
-#ele, #wp{
-  
+#ele,
+#wp {
   text-decoration: none;
-    color: black; 
-   font-size:small ;
+  color: black;
+  font-size: small;
 }
-#ele{
+#ele {
   border: 1px solid;
   padding: 8px;
   background-color: rgb(226, 63, 90);
   color: white;
   border-radius: 5px;
 }
-#wp{
+#wp {
   border: 1px solid;
   padding: 8px;
   border-radius: 5px;
   background-color: rgba(138, 138, 249, 0.964);
   color: white;
 }
-#ele:hover{
+#ele:hover {
   background-color: aqua;
   color: black;
 }
-#wp:hover{
+#wp:hover {
   background-color: pink;
   color: black;
+}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  #frames {
+    align-content: center;
+    /* width: 50vw;
+    height: 55vh; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 10px;
+    text-align: center;
+  }
+  #ele {
+    border: 1px solid;
+    padding: 2px;
+    background-color: rgb(226, 63, 90);
+    color: white;
+    border-radius: 2px;
+  }
+  #wp {
+    border: 1px solid;
+    padding: 2px;
+    border-radius: 2px;
+    background-color: rgba(138, 138, 249, 0.964);
+    color: white;
+  }
+  #frames div {
+
+    /* border: 2px solid red; */
+    width: 50vw;
+    height: 40vh;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    padding: 2px;
+    border-radius: 25px;
+    margin: auto;
+    /* box-shadow: 5px 5px 5px 5px gray; */
+  }
+  #ele,
+#wp {
+  gap: 5vh;
+  justify-content: center;
+  display: flex;
+  /* display: block; */
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: black;
+  font-size: smaller;
+}
+.para2{
+  font-size: medium;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 475px) {
+  #frames {
+    align-content: center;
+    /* width: 50vw;
+    height: 55vh; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 10px;
+    text-align: center;
+  }
+  #ele {
+    border: 1px solid;
+    padding: 2px;
+    background-color: rgb(226, 63, 90);
+    color: white;
+    border-radius: 2px;
+  }
+  #wp {
+    border: 1px solid;
+    padding: 2px;
+    border-radius: 2px;
+    background-color: rgba(138, 138, 249, 0.964);
+    color: white;
+  }
+  #frames div {
+
+    /* border: 2px solid red; */
+    width: 50vw;
+    height: 40vh;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    padding: 2px;
+    border-radius: 25px;
+    margin: auto;
+    /* box-shadow: 5px 5px 5px 5px gray; */
+  }
+  #ele,
+#wp {
+  gap: 5vh;
+  justify-content: center;
+  display: flex;
+  /* display: block; */
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: black;
+  font-size: smaller;
+}
+.para2{
+  font-size: medium;
+}
+}
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  /* #frames {
+    align-content: center;
+     width: 50vw;
+    height: 55vh; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 10px;
+    text-align: center;
+  } */
+  #ele {
+    border: 1px solid;
+    padding: 2px;
+    background-color: rgb(226, 63, 90);
+    color: white;
+    border-radius: 2px;
+    
+  }
+  #wp {
+   
+    border: 1px solid;
+    padding: 2px;
+    border-radius: 2px;
+    background-color: rgba(138, 138, 249, 0.964);
+    color: white;
+  }
+  #frames div {
+
+    /* border: 2px solid red; */
+    /* width: 50vw; */
+    /* height: 40vh; */
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    padding: 2px;
+    border-radius: 25px;
+    margin: auto;
+    /* box-shadow: 5px 5px 5px 5px gray; */
+  }
+  #ele,
+#wp {
+  gap: 5vh;
+  justify-content: center;
+  display: flex;
+  /* display: block; */
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: black;
+  font-size: smaller;
+}
+.para2{
+  font-size: large;
+}
+}
+#monitor{
+  background-color: rgba(40, 82, 207, 0.915);
+  border: 2px solid rgb(82, 82, 245);
+  height: 85vh;
+  width: 96vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+.para5{
+  font-style: oblique;
+  margin-top: 20vh;
+  margin-left: 15vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  transform: scale(1.5);
+  font-size: xx-large;
+  color: white;
+  /* border: 2px solid black; */
+  width: 25vw;
+  /* margin: auto; */
+  height: 15vh;
+  
+}
+.moni1{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.para6{
+  margin-top: 40vh;
+  margin-left: -25vw;
+  /* position: relative; */
+  text-align: center;
+  /* display: block; */
+  /* border: 2px solid yellow; */
+  width: 25vw;
+  height: 15vh;
+  font-size: large;
+  color: white;
+}
+#listm{
+  position: absolute;
+  /* border: 2px solid yellow; */
+  color: white;
+  height: 15vh;
+  margin-top: 55vh;
+  margin-left: vw;
+  font-size: large; 
+}
+.moni2{
+  margin: auto;
+}
+@media screen and (min-width:0px) and (max-width:320px){
+  .para5{
+    font-style: oblique;
+    /* margin-top: 20vh;
+    margin-left: 15vw; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    /* transform: scale(1.5); */
+    font-size: medium;
+    color: white;
+    /* border: 2px solid black; */
+    width: 30vw;
+    /* margin: auto; */
+    height: 5vh;
+    
+  }
+  #monitor{
+    background-color: rgba(40, 82, 207, 0.915);
+    border: 2px solid rgb(82, 82, 245);
+    height: 85vh;
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+
+  
 }
